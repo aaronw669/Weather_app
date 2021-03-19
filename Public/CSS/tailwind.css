@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card-text {
+      @apply text-white font-bold text-lg tracking-wide;},
+    .card-div {
+      @apply w-full h-1/2 flex flex-col justify-center;}
+  }
